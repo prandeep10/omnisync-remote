@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.device {
+    margin-bottom: 10px;
+}
+
+.device button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.device.on {
+    background-color: lightgreen;
+}
+
+.device.off {
+    background-color: lightcoral;
+}
